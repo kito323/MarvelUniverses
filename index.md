@@ -12,6 +12,14 @@ And here is interactive NetworkX graph
 
 {% include_relative networkgraph.html %}
 
+And here is cute doggo GIF
+
+![](doggo.gif)
+
+And this is how i feel after this
+
+![](doggo.jpg)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
