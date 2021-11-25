@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Here is iris dataset visualised
 
-{% include_relative plotly_graph.html}
+{% include_relative plotly_graph.html %}
 
 ### Markdown
 
