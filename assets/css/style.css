@@ -4,4 +4,5 @@
 @import "{{ site.theme }}";
 #banner {
 	color: blue;
+	background-color: black;
 }
