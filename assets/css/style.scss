@@ -123,7 +123,15 @@ nav {
 
       &.tag-h1 {
         font-size: 1.2em;
-		text-shadow: white 0px 0px 10px;
+		    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 
 
         a {
@@ -138,7 +146,15 @@ nav {
 
       &.tag-h2 {
 		color: #fff;
-		text-shadow: white 0px 0px 10px;
+		    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 
 
         + .tag-h1 {
@@ -148,7 +164,7 @@ nav {
     }
 
     a {
-      color: #666;
+      color: #fff;
 
       &:hover { color: #999; }
     }
