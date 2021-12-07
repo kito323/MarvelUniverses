@@ -51,7 +51,7 @@ And here is interactive NetworkX graph
 
 {% include_relative networkgraph.html %}
 
-And here is cute doggo GIF
+TEST
 
 ![](assets/images/citizenship.png)
 
