@@ -35,11 +35,11 @@ And here is interactive NetworkX graph
 
 And here is cute doggo GIF
 
-![](doggo.gif)
+![](assets/images/doggo.gif)
 
 And this is how i feel after this
 
-![](doggo.jpg)
+![](assets/images/doggo.jpg)
 
 Interactive Deepnote cell
 
