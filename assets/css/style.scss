@@ -222,3 +222,23 @@ body {
   margin:-160px auto 100px;
   position:relative;
 }
+
+footer {
+  width:180px;
+  position: fixed;
+  left:50%;
+  margin-left:-530px;
+  bottom:20px;
+  text-align: right;
+  line-height: 16px;
+  color: white;
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
