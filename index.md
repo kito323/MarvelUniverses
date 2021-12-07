@@ -1,50 +1,24 @@
-# Welcome to GitHub Pages made by me the mighty kito323
+# Welcome to GitHub Pages for our Marvel Universe Project
 
-## Sub header test
+## Motivation
 
-### Subsub header test
+## Basic statistics
 
-# Yet another header
+## Toosl, theory and analysis
 
-## Sub header test
+### Creating entire network of all characters
 
-## Sub header test
+### Degree distribution of the entire network
 
-## Sub header test
+### Character attribute analysis
 
-## Sub header test
+### Network theory comparison
 
-## Sub header test
+### Friendship paradox for Marvel characters
 
-## Sub header test
+### Sentiment analysis
 
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
-
-## Sub header test
+## Discussion
 
 
 You can use the [editor on GitHub](https://github.com/kito323/MarvelUniverses/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
