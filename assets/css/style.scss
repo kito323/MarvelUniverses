@@ -100,9 +100,9 @@ header {
 }
 
 nav {
-  width: 230px;
+  width: 500px; /* 230px */
   position: fixed;
-  top: 220px;
+  top: 100px; /* 210px */
   left:50%;
   margin-left:-580px;
   text-align: right;
