@@ -12,11 +12,29 @@
 
 ### Character attribute analysis
 
+![](assets/images/citizenship.png)
+![](assets/images/identity.png)
+![](assets/images/gender.png)
+![](assets/images/hair.png)
+![](assets/images/occupation.png)
+
+
+
 ### Network theory comparison
 
 ### Friendship paradox for Marvel characters
 
+![](assets/images/scatter.png)
+![](assets/images/logscatter.png)
+![](assets/images/predict_bad.png)
+![](assets/images/predict_good.png)
+
+
 ### Sentiment analysis
+
+![](assets/images/HistorySentimentDist.png)
+![](assets/images/TriviaSentimentDist.png)
+
 
 ## Discussion
 
