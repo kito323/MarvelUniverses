@@ -45,7 +45,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Here is interactive iris dataset visualised
 
-{% assets/html/sentiment distribution with TopPop.html %}
+{% /assets/html/sentiment distribution with TopPop.html %}
 
 And here is interactive NetworkX graph
 
