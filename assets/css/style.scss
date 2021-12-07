@@ -155,11 +155,29 @@ nav {
         -0.05em 0.05em black,
         0.05em -0.05em black,
         0.05em 0.05em black;
-		margin-right: 5px;
 
 
         + .tag-h1 {
-          margin-top:-20px;
+          margin-top: 10px;
+        }
+      }
+	  
+	  &.tag-h3 {
+		color: #fff;
+		    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+		margin-right: 10px;
+
+
+        + .tag-h2 {
+          margin-top: 10px;
         }
       }
     }
