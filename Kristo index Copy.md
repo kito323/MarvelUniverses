@@ -26,6 +26,8 @@ There is an example of such text below:
 
 ![](assets/images/description example.gif)
 
+We also looked ...
+
 ## Analysis
 
 ### Creating entire network of all characters
