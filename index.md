@@ -70,11 +70,22 @@ Comparing this with the four-way distribution plot with zoomed-in versions for t
 
 ### Character attribute analysis
 
-![](assets/images/citizenship.png)
-![](assets/images/identity.png)
-![](assets/images/gender.png)
-![](assets/images/hair.png)
-![](assets/images/occupation.png)
+As mentioned in the beginning, from the descriptions of characters it is possible to extract different attributes describing the characters. The ones focused on will be *gender, identity, occupation, citizenship and hairstyle*.
+
+After extracting the values and counting the occurences we can plot them as wordclouds:
+
+![](assets/images/5_attributes_wordclouds.png)
+
+We also have info about the missing values for each of the 5 attributes. Number of characters with missing info about:
+* identity: 10429
+* citizenship: 30164
+* hair: 20861
+* occupation: 57200
+* gender: 1982
+
+In total there was 73 574 characters, just to put those numbers into perspective.
+
+From plotting the wordclouds we see the most frequent occuring types. This counting of occurences provides us the information that almost all characters' gender is described with some value. 'Male' and 'female' values combined take up more than 95%, what is kind of expected even for a sci-fy universes. The vast majority of characters' identity is described and 5/7 of characters' hair as well. Most surprising is that only about half of the characters' citizenship is described and the vast majority of characters, with a citizenship description, are american. Only 2/7 characters have an occupation description. For exact distribution between the attributes and bar-plots please refer to the `Explainer notebook.ipynb` in our GitHub repository.
 
 ### Character and universe analysis
 
