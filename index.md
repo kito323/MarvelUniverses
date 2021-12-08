@@ -44,7 +44,29 @@ The degree distribution will now be investigated. The most connected characters 
 |     3 	| James Howlett (Earth-616) 	|      1233 	|
 |     4 	|  Bruce Banner (Earth-616) 	|      1102 	|
 
+|   	|                     Title 	| Out-degree 	|
+|--:	|--------------------------:	|------------	|
+| 0 	| Krakoa (Earth-616)        	| 345        	|
+| 1 	| Bruce Banner (Earth-616)  	| 281        	|
+| 2 	| James Howlett (Earth-616) 	| 276        	|
+| 3 	| Peter Parker (Earth-616)  	| 248        	|
+| 4 	| William Baker (Earth-616) 	| 221        	|
+
 From the top-connected characters we see how (Earth-616) is referenced frequently. This chapter/universe is stated to be the main universe according to marvel.fandom.wiki [Ref 4]. Therefore the characters in this universe are frequently referenced from other universes which is why the in-degree is so much higher compared to the out degree. In both in- and out-degrees it is seen that Bruce Banner (Hulk), Peter Parker (Spiderman), Steven Rogers (Captain America), Anthony Stark (Ironman) and James Howlett (Wolverine) who are all central characters in the Marvel univers as to why this makes sense.
+
+![](assets/images/deg_dist_entire_network.png)
+
+The degree distribution shows how the majority of the nodes/characters have a relatively low both in- and out-degree where the vast majority have a degree below 10 for both. There are many, many side characters in the Marvel universe, and it makes sense that most of them are only referenced no, one, or two times, and that's why the in-degree count for degrees 0-3 is so high. The out-degree, however, is not affected by this; a page can link to as many other characters as the article allows. Therefore, it makes sense that the out-degrees are more evenly distirbuted, with a higher degree being more common than for the in-degree distribution.
+
+![](assets/images/loglog_plots.png)
+
+Both networks appear to follow a $p_k\sim k^{-\gamma}$ distribution (equation (4.1) in the [Network Science Book](http://networksciencebook.com/)), where $k$ is the degree, and $\gamma$ is the degree exponent. We can see this from the fact that the log-log plots show roughly straight lines.
+
+The in-degree and out-degree exponents calculated above are the slopes of the log-log plot of the distributions, which can be seen in the above plots.
+
+Referring to Box 4.5 in the textbook, we can see that the in-degree distribution falls in the "scale-free" regime, while the out-degree distribution also falls in the scale-free network regime, although it is a little closer to 3 than the in-degree distribution.
+
+Comparing this with the four-way distribution plot with zoomed-in versions for the in- and out-degrees for the all-characters network, we can see that the out-degree distribution resembles more a random network than does the in-degree distribution.
 
 ### Character attribute analysis
 

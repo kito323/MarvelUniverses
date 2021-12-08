@@ -74,7 +74,56 @@ Comparing this with the four-way distribution plot with zoomed-in versions for t
 ![](assets/images/hair.png)
 ![](assets/images/occupation.png)
 
+### Character and universe analysis
 
+We will now analyze the characters of the universes and the universes as well.
+
+Firstly we will take a look at the number of universes in the dataset (found as they are listed in the names of the characters).
+
+Then we will take a look at how many unique characters are contained in the dataset.
+
+The 30 characters appearing in most universes are then printed alongside the number of universes they appear in:
+
+![](assets/images/nr universes pr character.png)
+
+It is seen how Peter Parker appear in 605 universes and is the character appearing in most. Peter Parker is Spiderman's civil name and characters, which is why it makes sense. Anthony Stark, Steven Rogers and James Howlett are Iron Man, Captain America and Wolverine respectively and these are also main characters of the universe as to why it makes a lot of sense that these are reference in a high number of universes.
+
+**Directed network of characters present in more than one universe**
+
+![](assets/images/directed_network_more_than_one_univ.png)
+
+![](assets/images/marvel_degree_dist_2.png)
+
+The degree distribution of the network across universes of characters appearing in more than 1 universe, shows how most characters have both in- and out-degrees below 100. Then there are some having in- and out-degrees between 100-300 and a few (Spiderman, Iron Man, Captain America and Wolverine) having a very high in- and/or out-degree. Again the reason that these specific characters have high degrees are because of their central role in the marvel universes.
+
+### Interactive network plot (characters present in more than 5 universes and in Earth-616)
+
+Firstly an interactive plot is made to be able to inspect the names and attributes of the node hovered over. Then a plot is made to be able to inspect the the connected components of the character hovered over. A third interactive plot is then made bringing the interactive parts of the first two together. In the resulting plot it is therefore possible to inspect both the character by name, attributes and connections by hovering over him/her.
+
+{% include_relative assets/html/Marvel_Network_of_characters_in_Earth-616_that_also_appear_in_more_than_5_universes.html %}
+{% include_relative assets/html/Marvel_Network_of_characters_that_appear_in_more_than_5_universes.html %}
+
+**Earth 210**
+
+The thought was to choose some different universes and compare these to the main universe Earth-616. But as this analysis of other universes started we saw how Earth 210 contains only 5 characters, as to why this universe analysis is not carried out. This indicates some big differences in universes, som universes contain a lot of characters and even some also present in other universes, while others seem to only contain very few. That a character is contained in the data for a universe means that this characters is either a resident or has been to the planet. The following cells show the network from Earth 210.
+
+![](assets/images/directed_network_5univ.png)
+
+|   	|                     Title 	| In-degree 	|
+|--:	|--------------------------:	|-----------	|
+| 0 	| Anthony Stark (Earth-210) 	|         4 	|
+| 1 	|        Thanos (Earth-210) 	|         4 	|
+| 2 	|  Peter Parker (Earth-210) 	|         3 	|
+| 3 	|   Peter Quill (Earth-210) 	|         3 	|
+| 4 	|         Death (Earth-210) 	|         1 	|
+
+It seems by further investigation that the characters contained in the universes, are the characters that have been to the particular Earth-XX! Earth-616 is then the planet/universe most characters have been to, while only five characters have been to Earth-210. This leads to investigating the number of characters that have been to each universe.
+
+**Characters in each universe**
+
+We see how there are very few characters in Earth 210, which leads to the interest of making a character distribution graph.
+
+![](assets/images/universe_char_dist.png)
 
 ### Network theory comparison
 
