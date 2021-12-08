@@ -24,7 +24,7 @@ The first overview gives us that the dataset consists of 73574 texts from API re
 
 There is an example of such text below:
 
-![](assets/images/description example.gif)
+![](assets/images/description_example.gif)
 
 # Toosl, theory and analysis
 
