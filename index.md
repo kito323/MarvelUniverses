@@ -253,14 +253,8 @@ What is particularly interesting is that we can find **Nicholas Fury** on the th
 
 
 
-## Dataset download
+## Explainer notebook and dataset download
+The [explainer notebook](https://github.com/kito323/MarvelUniverses/blob/main/Explainer%20notebook%20PAB.ipynb) and data used in this analysis can be found on [our Github repository](https://github.com/kito323/MarvelUniverses) (main branch).
 
-## Explainer notebook
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kito323/MarvelUniverses/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
