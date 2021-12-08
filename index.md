@@ -51,11 +51,11 @@ In this section we want to investigate more the texts of the wikipages - more pe
 
 Dictionary based method comes with several **problems like misunderstood negation, superlative and irony**. But with a big enough text it shouldn't be that problematic because nobody usually talks with negations or using irony only. Also it is important that text has to be transformed into lowercase, lemmatized and tokenized - every word's stem is separated and with no capital letters.
 
-But enough about the problems with methods, let's see what problems do we have with our text data. Firstly, the problem with wikipedias is that several people write them and that means that there is a lot of inconsistency. So not all paragraphs and attributes are included in each API request we made. It seems so that **Trivia** and **History** are probably the best paragraphs to look into as they have a lot of original text. Other paragraphs might often have just a common sentence across the characters.
+But enough about the problems with methods, let's see what problems do we have with our text data. Firstly, the problem with wikipedias is that several people write them and that means that there is a lot of inconsistency. So not all paragraphs and attributes are included in each API request we made. It seems so that **Trivia** and **History** are probably the best paragraphs to look into as they have a lot of original text (meaning there will hopefully be more sentiment and less copy-paste text) and they were present quite often. Other paragraphs might often have just a common sentence across the characters.
 
 Second problem was that the the text from API request was not completely human-readable shape, so some **cleaning** was needed to be done.
 
-And thirdly, as there are many universes sharing basically same characters often then the text is often same as well or just redirecting to some counterpart in another universe. For that reason we only decided to investigate **Earth-616** universe because it is considered being the main universe and mostly the other universes reference this one, instead *vice versa*.
+And thirdly, as there are many universes often sharing basically same characters, then the text is often same as well or just redirecting to some counterpart in another universe. For that reason we only decided to investigate **Earth-616** universe because it is considered being the main universe and mostly the other universes reference this one, instead *vice versa*.
 
 After all that, we found the sentiment scores separately for History and Trivia paragraphs. Results were graphed as histograms as shown below.
 
@@ -78,7 +78,9 @@ We also looked the minimum/maximum/median/mean score texts too. What was by now 
 
 The texts that were closest to median and mean values were a bit different - they had more length. Interestingly, they seemed to have rather negative sentiment in reality. They talk a lot about **alcoholism, murder, grudge, pistol, wound and death** and a bit about positive things like **"family", "success", "good friendship" and how "hero" saves the day**. But then again sometimes those good words are used in negative context like "family murder scene" and "lack of success". This is something that the dictionary based method cannot detect unfortunately.
 
-Lastly, we put together the History and Trivia texts, calculated the overall average sentiment score for each character and ploted the distribution as line graph shown below. In adition to that we also looked which characters had the longest resulting texts and determined their popularity rank like that. Then ploted top most characters there as well with names to see who has what score and hopefully would recognise a few of them.
+For more information about those texts and the characters who they belong to can be found on our explainer notebook.
+
+Lastly, we put together the History and Trivia texts, calculated the overall average sentiment score for each character and ploted the distribution as line graph shown below. In adition to that we also looked which characters had the longest resulting texts and determined their popularity rank using that. Then ploted top most characters there as well with names, to see who has what score and hopefully would recognise a few of them.
 
 {% include_relative assets/html/sentiment_distribution_with_TopPop.html %}
 
