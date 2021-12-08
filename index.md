@@ -32,6 +32,18 @@ There is an example of such text below:
 
 ### Degree distribution of the entire network
 
+The degree distribution will now be investigated. The most connected characters in terms of both in- and out-degrees are:
+
+| Index 	|                     Title 	| In-degree 	|
+|------:	|--------------------------:	|-----------	|
+|     0 	|  Peter Parker (Earth-616) 	|      1906 	|
+|     1 	| Steven Rogers (Earth-616) 	|      1689 	|
+|     2 	| Anthony Stark (Earth-616) 	|      1368 	|
+|     3 	| James Howlett (Earth-616) 	|      1233 	|
+|     4 	|  Bruce Banner (Earth-616) 	|      1102 	|
+
+From the top-connected characters we see how (Earth-616) is referenced frequently. This chapter/universe is stated to be the main universe according to marvel.fandom.wiki [Ref 4]. Therefore the characters in this universe are frequently referenced from other universes which is why the in-degree is so much higher compared to the out degree. In both in- and out-degrees it is seen that Bruce Banner (Hulk), Peter Parker (Spiderman), Steven Rogers (Captain America), Anthony Stark (Ironman) and James Howlett (Wolverine) who are all central characters in the Marvel univers as to why this makes sense.
+
 ### Character attribute analysis
 
 ![](assets/images/citizenship.png)
@@ -43,6 +55,30 @@ There is an example of such text below:
 
 
 ### Network theory comparison
+
+**Average shortest path**
+
+Average degree for the entire network is: 7.39
+Average degree for the network of characters appearing in more than 5 universes is: 89.23
+Average degree for the entire Earth-616 is: 8.60
+Average degree for the network of Earth-616 characters appearing in more than 5 universes is: 44.17
+
+Average shortest path for the entire network is: 5.60
+Average shortest path for the network of characters appearing in more than 5 universes is: 1.55
+Average shortest path for the entire Earth-616 is: 4.79
+Average shortest path for the network of Earth-616 characters appearing in more than 5 universes is: 1.77
+
+The average degree tells us about how well connected the nodes in the networks are. The average degree for the entire network and the entire network of Earth-616 characters have a somewhat high average degree meaning that the nodes are well connected. 
+
+The network containing the characters present in more than 5 universes has a very high average degree of 89.23. This makes sense as the characters have had their universe information removed from their names, and all the descriptions of each character regardless of universes are summed up.
+
+The connected components for each character is then found in the summed descriptions and therefor it is the connected characters for all universes they appear in and the average degree will therefore be higher, which it also is. The average degree of the network created from Earth-616 is very high when it is taken into account that the connected characters here are found in the descriptions for only Earth-616. The network of characters in this universe must be said to be very connected.
+
+**Regimes**
+
+The average degree of the networks can be used to analyse which regime they are in. In the printings above it is analysed whether the networks are in the connected regime. All the average degrees are above 1, which means that if the statements are False, they are in the supercritical regime, and if the statements are true, the networks are in the connected regime. The entire network and the network of the entire Earth-616 universe are both in the supercritical regime, while the two networks containing central characters (central characters as they are present in more than 5 universes) are in the connected regime.
+
+Being in the connected regime means that all the nodes have been consumed by the Giant Connected Component [Ref 1], which is the case for the two networks of the central characters.
 
 ### Friendship paradox for Marvel characters
 
