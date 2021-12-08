@@ -178,9 +178,9 @@ What ended up working was, firsly, the average degree, which isn't surprising si
 
 We used nested cross-validation. It's a neat way to avoid the common problem of adjusting your model according to testing results. 
 
-![](assets/images/logscatter.png)
+![](assets/images/log_scatter.png)
 
-Some of the variables have been log-transformed for a better viewing experience.
+Some of the variables have been log-transformed for a better viewing experience. While number of nodes and number of edges seem sensible to use here, they are not; firstly, random forest regressors don't work well with correlated variables, and the number of nodes doesn't say anything about the structure of a network. Whether the friendship paradox is true never or almost always depends completely on how the nodes are connected. Therefore, we remove them from consideration.
 
 ![](assets/images/predict_bad.png)
 
