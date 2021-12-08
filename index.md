@@ -20,6 +20,12 @@ We will now try to take you through our approaches and results. It has taken qui
 
 # Basic statistics
 
+The first overview gives us that the dataset consists of 73574 texts from API requests. Those texts include character attributes, that can be filled to help describe each character, and paragraph sections, that can be used to look for connected characters and sentiment analysis.
+
+There is an example of such text below:
+
+![](assets/images/description example.gif)
+
 # Toosl, theory and analysis
 
 ### Creating entire network of all characters
