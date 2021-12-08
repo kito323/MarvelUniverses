@@ -179,13 +179,13 @@ Next, we analyze regimes.
 
 ___
 
-<k> > ln(N) for entire network is False
+`<k> > ln(N)` for entire network is False
     
-<k> > ln(N) for the network of characters appearing in more than 5 universes is True
+`<k> > ln(N)` for the network of characters appearing in more than 5 universes is True
     
-<k> > ln(N) for the entire Earth-616 is False
+`<k> > ln(N)` for the entire Earth-616 is False
     
-<k> > ln(N) for the network of Earth-616 characters appearing in more than 5 universes is True
+`<k> > ln(N)` for the network of Earth-616 characters appearing in more than 5 universes is True
     
 ___
 
