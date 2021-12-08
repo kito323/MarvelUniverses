@@ -44,7 +44,7 @@ The degree distribution will now be investigated. The most connected characters 
 |     3 	| James Howlett (Earth-616) 	|      1233 	|
 |     4 	|  Bruce Banner (Earth-616) 	|      1102 	|
 
-|   	|                     Title 	| Out-degree 	|
+| Index	|                     Title 	| Out-degree 	|
 |--:	|--------------------------:	|------------	|
 | 0 	| Krakoa (Earth-616)        	| 345        	|
 | 1 	| Bruce Banner (Earth-616)  	| 281        	|
@@ -113,8 +113,8 @@ The degree distribution of the network across universes of characters appearing 
 
 Firstly an interactive plot is made to be able to inspect the names and attributes of the node hovered over. Then a plot is made to be able to inspect the the connected components of the character hovered over. A third interactive plot is then made bringing the interactive parts of the first two together. In the resulting plot it is therefore possible to inspect both the character by name, attributes and connections by hovering over him/her.
 
-{% include_relative assets/html/Marvel_Network_of_characters_in_Earth-616_that_also_appear_in_more_than_5_universes.html %}
-{% include_relative assets/html/Marvel_Network_of_characters_that_appear_in_more_than_5_universes.html %}
+{% include_relative assets/html/600 Marvel Network of characters that appear in more than 5 universes .html %}
+{% include_relative assets/html/600 Marvel Network of characters in Earth-616 that also appear in more than 5 universes .html %}
 
 **Earth 210**
 
@@ -189,6 +189,7 @@ So, nested cross-validation to the rescue!
 ![](assets/images/predict_good.png)
 
 
+
 ### Sentiment analysis
 
 In this section we want to investigate more the texts of the wikipages - more percisely the sentiment of their pages. For that we used the **dictionary based method** meaning we have a dataset where regular words have some sentiment score assigned to them and then we look up all such words in the text and find the arithmetic mean of those word scores. The dataset, named LabMT, we used for dictionary originates from [Temporal Patterns of Happiness and Information in a Global Social Network: Hedonometrics and Twitter](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752#s4) study.
@@ -239,55 +240,6 @@ What is particularly interesting is that we can find **Nicholas Fury** on the th
 ## Dataset download
 
 ## Explainer notebook
-
-
-You can use the [editor on GitHub](https://github.com/kito323/MarvelUniverses/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-Here is interactive iris dataset visualised
-
-
-And here is interactive NetworkX graph
-
-{% include_relative networkgraph.html %}
-
-TEST
-
-![](assets/images/citizenship.png)
-
-And this is how i feel after this
-
-![](assets/images/doggo.jpg)
-
-Interactive Deepnote cell
-
-```<iframe title="Embedded cell output" src="https://embed.deepnote.com/972a3b21-ed0b-49ad-94ce-ad59397a5d4f/b12d7987-1634-4196-926d-80b7c2d0b3c6/00011-92273088-0012-4d1d-9dc5-98629df1b38d?height=83" height="400" width="600"/>
-```
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
 
