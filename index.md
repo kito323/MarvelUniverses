@@ -97,7 +97,7 @@ Then we will take a look at how many unique characters are contained in the data
 
 The 30 characters appearing in most universes are then printed alongside the number of universes they appear in:
 
-![](assets/images/nr universes pr character.png)
+![](assets/images/nr_universes_pr_character.png)
 
 It is seen how Peter Parker appear in 605 universes and is the character appearing in most. Peter Parker is Spiderman's civil name and characters, which is why it makes sense. Anthony Stark, Steven Rogers and James Howlett are Iron Man, Captain America and Wolverine respectively and these are also main characters of the universe as to why it makes a lot of sense that these are reference in a high number of universes.
 
