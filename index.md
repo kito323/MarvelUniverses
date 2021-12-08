@@ -35,6 +35,9 @@
 ![](assets/images/HistorySentimentDist.png)
 ![](assets/images/TriviaSentimentDist.png)
 
+{% include_relative assets/html/sentiment_distribution_with_TopPop.html %}
+
+
 
 ## Discussion
 
@@ -45,7 +48,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Here is interactive iris dataset visualised
 
-{% include_relative assets/html/sentiment_distribution_with_TopPop.html %}
 
 And here is interactive NetworkX graph
 
