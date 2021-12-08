@@ -24,6 +24,16 @@
 
 ### Friendship paradox for Marvel characters
 
+What is the friendship paradox? It's surprising that the amount of times that a node's degree is less than the average happens more often than you'd think. The reason is that, sometimes, hubs of nodes will form which have a higher average degree than the rest of the network. This way, there can actually be a substantial part of the network which have lower degrees than the network's average.
+
+We thought this was an interesting property of networks because it partly reveals how the network is structured. If the friendship paradox is true often, then the network probably has the aforementioned hubs with a high average degree. The exciting thing about this is that we can ascertain this important property of the network with a small sample from the network -- often, 100 tries is enough! So if we had a network that was so large that it couldn't even be processed by a single computer, but we still had a way of sampling from it, then we could know a lot just from sampling and trying out the friendship paradox.
+
+We tried out a bunch of different variables to try to predict how often the friendship paradox rings true for a network. 
+
+What ended up working was, firsly, the average degree, which isn't surprising since it's an integral part of the friendship paradox. However, what was surprising was that the probability for a random network, with the same number of nodes and average degree as the network, turned out to be the strongest predictor, and the power-law probability wasn't useful at all!
+
+We used nested cross-validation. It's a neat way to avoid the common problem of adjusting your model according to testing results. 
+
 ![](assets/images/scatter.png)
 ![](assets/images/logscatter.png)
 ![](assets/images/predict_bad.png)
@@ -39,7 +49,9 @@
 
 
 
-## Discussion
+## Dataset download
+
+## Explainer notebook
 
 
 You can use the [editor on GitHub](https://github.com/kito323/MarvelUniverses/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
