@@ -125,6 +125,8 @@ We see how there are very few characters in Earth 210, which leads to the intere
 
 ![](assets/images/universe_char_dist.png)
 
+From the above plot it is seen how Earth-616 (the main universe) has many characters but is succeeded by Earth-6. Earth-6 is home to Captain Britain. Many characters have either resided or been to this planet according to the data. A comic X-of-Swords: Destruction #1 which has many chapters play out partly on this planet, which is why many characters are found here. But Earth-616 has been analysed as this is the main universe according to the fandom page.
+
 ### Network theory comparison
 
 **Average shortest path**
