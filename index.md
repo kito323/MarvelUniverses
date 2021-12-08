@@ -16,7 +16,7 @@ A sentiment analysis will be carried out on wiki texts in order to find the char
 
 A machine learning approach to predict how often the [friendship paradox](https://en.wikipedia.org/wiki/Friendship_paradox) rings true for a network was investigated. The goal of using machine learning is to present to the reader what variables are influential in deciding the success rate of the friendship paradox.
 
-We will now try to take you through our approaches and results. It has taken quite a lot of work and for more insights check out our `explainer notebook` in our [GitHub repository](https://github.com/kito323/MarvelUniverses). Now, hang on tight and let's get into it!
+We will now try to take you through our approaches and results. It has taken quite a lot of work and for more insights check out our `Explainer notebook.ipynb` in our [GitHub repository](https://github.com/kito323/MarvelUniverses). Now, hang on tight and let's get into it!
 
 # Basic statistics
 
