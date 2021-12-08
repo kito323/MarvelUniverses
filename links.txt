@@ -1,0 +1,8 @@
+Website:
+https://kito323.github.io/MarvelUniverses/
+
+Explainer notebook:
+https://github.com/kito323/MarvelUniverses/blob/main/Explainer%20notebook%20PAB.ipynb
+
+Data (repository's main branch):
+https://github.com/kito323/MarvelUniverses
