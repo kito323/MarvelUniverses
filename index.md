@@ -1,10 +1,10 @@
 # Welcome to GitHub Pages for our Marvel Universe Project
 
-## Motivation
+# Motivation
 
-## Basic statistics
+# Basic statistics
 
-## Toosl, theory and analysis
+# Toosl, theory and analysis
 
 ### Creating entire network of all characters
 
@@ -37,6 +37,11 @@ We used nested cross-validation. It's a neat way to avoid the common problem of 
 ![](assets/images/scatter.png)
 ![](assets/images/logscatter.png)
 ![](assets/images/predict_bad.png)
+
+The results of our first try without nested cross-validation. In this one, we tweaked the parameters until we found a model that did the best on the test set -- a bad practice!
+
+So, nested cross-validation to the rescue!
+
 ![](assets/images/predict_good.png)
 
 
