@@ -109,7 +109,7 @@ It is seen how Peter Parker appear in 605 universes and is the character appeari
 
 The degree distribution of the network across universes of characters appearing in more than 1 universe, shows how most characters have both in- and out-degrees below 100. Then there are some having in- and out-degrees between 100-300 and a few (Spiderman, Iron Man, Captain America and Wolverine) having a very high in- and/or out-degree. Again the reason that these specific characters have high degrees are because of their central role in the marvel universes.
 
-### Interactive network plot (characters present in more than 5 universes and in Earth-616)
+### Characters present in more than 5 universes and in Earth-616
 
 Firstly an interactive plot is made to be able to inspect the names and attributes of the node hovered over. Then a plot is made to be able to inspect the the connected components of the character hovered over. A third interactive plot is then made bringing the interactive parts of the first two together. In the resulting plot it is therefore possible to inspect both the character by name, attributes and connections by hovering over him/her.
 
