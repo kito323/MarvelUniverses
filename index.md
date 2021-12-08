@@ -113,8 +113,8 @@ The degree distribution of the network across universes of characters appearing 
 
 Firstly an interactive plot is made to be able to inspect the names and attributes of the node hovered over. Then a plot is made to be able to inspect the the connected components of the character hovered over. A third interactive plot is then made bringing the interactive parts of the first two together. In the resulting plot it is therefore possible to inspect both the character by name, attributes and connections by hovering over him/her.
 
-{% include_relative assets/html/600 Marvel Network of characters that appear in more than 5 universes .html %}
-{% include_relative assets/html/600 Marvel Network of characters in Earth-616 that also appear in more than 5 universes .html %}
+{% include_relative assets/html/600_Marvel_Network_of_characters_in_Earth-616_that_also_appear_in_more_than_5_universes.html %}
+{% include_relative assets/html/600_Marvel_Network_of_characters_that_appear_in_more_than_5_universes.html %}
 
 **Earth 210**
 
