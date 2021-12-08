@@ -30,6 +30,8 @@ There is an example of such text below:
 
 ### Creating entire network of all characters
 
+The creation of the entire network is a bit tedious process. We have to use [RegEx](https://docs.python.org/3/library/re.html) to find all desired attributes and out-going links (from which we have to select only those that point to other characters). This way we resulted in directed network with the same amount of nodes we had previously concluded from the lenght of character list. Unfortunately the network plot with 73558 nodes and 271709 links is not feasably ploted - it just results in a big fur-ball. But the result is saved as `D_graph.txt` with pickle module in our Github repository, in case reader would like to access the generated network.
+
 ### Degree distribution of the entire network
 
 ### Character attribute analysis
