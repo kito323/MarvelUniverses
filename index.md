@@ -118,7 +118,7 @@ Firstly an interactive plot is made to be able to inspect the names and attribut
 
 **Earth 210**
 
-The thought was to choose some different universes and compare these to the main universe Earth-616. But as this analysis of other universes started we saw how Earth 210 contains only 5 characters, as to why this universe analysis is not carried out. This indicates some big differences in universes, som universes contain a lot of characters and even some also present in other universes, while others seem to only contain very few. That a character is contained in the data for a universe means that this characters is either a resident or has been to the planet. The following cells show the network from Earth 210.
+The thought was to choose some different universes and compare these to the main universe Earth-616. But as this analysis of other universes started we saw how Earth 210 contains only 5 characters, as to why this universe analysis is not carried out. This indicates some big differences in universes, som universes contain a lot of characters and even some also present in other universes, while others seem to only contain very few. That a character is contained in the data for a universe means that this characters is either a resident or has been to the planet. The following shows the network from Earth 210.
 
 ![](assets/images/directed_network_5univ.png)
 
