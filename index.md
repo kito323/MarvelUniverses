@@ -178,15 +178,31 @@ What ended up working was, firsly, the average degree, which isn't surprising si
 
 We used nested cross-validation. It's a neat way to avoid the common problem of adjusting your model according to testing results. 
 
-![](assets/images/scatter.png)
 ![](assets/images/logscatter.png)
+
+Some of the variables have been log-transformed for a better viewing experience.
+
 ![](assets/images/predict_bad.png)
 
-The results of our first try without nested cross-validation. In this one, we tweaked the parameters until we found a model that did the best on the test set -- a bad practice!
+The results of our first try without nested cross-validation. In this one, we tweaked the parameters until we found a model that performed the best on the test set -- a bad practice!
 
 So, nested cross-validation to the rescue!
 
 ![](assets/images/predict_good.png)
+
+What we gain here from using nested cross-validation is that we now have a robust and unbiased estimate for the expected prediction error. Especially since we tested the final model on an unseen dataset that was not used in any way during model selection.
+
+We experimented with a multitude of variables to try to predict the friendship paradox ratio. We tried counting how many nodes had a degree above a certain threshold, like 10 or 50. The idea behind that was that if there are many nodes with high degrees, the friendship paradox is more likely to be true.
+
+It's interesting that the probability of a random network with the network's number of nodes and the network's average degree is such a powerful predictor, since, as per our conclusions in earlier chapters about the huge networks, the networks should be in the scale-free regime!
+
+This is especially interesting considering that we tried also calculating the scale-free property p_k=k^(−γ)/zeta(γ) using the network's degree exponent γ, but this also proved utterly fruitless as a predictor. For the scale-free equation mentioned, see [here (eq. 4.7)](http://networksciencebook.com/chapter/4#power-laws).
+
+But wait - the network of all universes was in the scale-free regime! What's going on here?
+
+It turns out that most of the smaller networks are in fact squarely in the **random regime**! Only the largest networks with hundreds, or thousands, of nodes are usually in the scale-free regime; we hypothesize that this is because small networks don't have opportunity to grow into their eventual structure, if their size was big enough.
+
+So the probability for random networks was the best predictor precisely because most of the networks in the dataset **were in the random regime!**
 
 
 
