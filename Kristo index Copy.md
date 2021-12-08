@@ -4,7 +4,7 @@
 
 The dataset chosen for this assignment is the full Marvel dataset from [marvel.fandom.com](https://marvel.fandom.com/wiki/Marvel_Database), also called as the Marvel Database. 
 
-The dataset of the Marvel characters was chosen as it provides a lot of information about all the multiverses/universes in Marvel and also because there are many attributes available describing all 36.414 unique characters. There are 36.414 unique characters, but the entire dataset contains 73.574 characters, as many characters appear in more than one universe and they have separate pages for such parallel characters. 
+The dataset of the Marvel characters was chosen as it provides a lot of information about all the multiverses/universes in Marvel and also because there are many attributes available describing all 36 414 unique characters. There are 36 414 unique characters, but the entire dataset contains 73 574 characters, as many characters appear in more than one universe and they have separate pages for such parallel characters. 
 
 The data is gathered using [API](https://en.wikipedia.org/wiki/API). Through that we got the text information that is partially human-readable and contains links to other pages. We also know which character (in which universe) the text corresponds to. Character names are stored as they are on Marvel wikipedia.
 
@@ -20,7 +20,13 @@ We will now try to take you through our approaches and results. It has taken qui
 
 ## Basic statistics
 
-## Toosl, theory and analysis
+The first overview gives us that the dataset consists of 73574 texts from API requests. Those texts include character attributes, that can be filled to help describe each character, and paragraph sections, that can be used to look for connected characters and sentiment analysis.
+
+There is an example of such text below:
+
+![](assets/images/description example.gif)
+
+## Analysis
 
 ### Creating entire network of all characters
 
