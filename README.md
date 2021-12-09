@@ -1,1 +1,1 @@
-# Make sure to unzip all files after cloning the repo in case you want to run the whole explainer notebook!
+# In case you want to run the whole explainer notebook, make sure to uncompress all zip files after cloning the repo!
